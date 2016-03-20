@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My portfolio</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Advent+Pro:400,100" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" type="css" href="default.css"><link rel="stylesheet" type="css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        
+        <link rel="stylesheet" type="css"  href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+        
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        
+    </head>
+  <body>
+      <div id="wrapper">
+          
+          <header id="header" class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12 header-logo-container">
+                  <img id="header-logo" src="logo.svg" />
+              </div>
+              <div id="header-title" class="col-md-8 col-sm-8 col-xs-12">
+                  <h1>Erica Sundberg</h1>
+                  <h2>Front-end web developer</h2>
+              </div>
+          </header>
+          
+          <section id="feature-image" class="row">
+              <picture class="col-md-12 col-sm-12 col-xs-12">
+                      <source media="(max-width: 768px)" srcset="images/header-image-sm.jpg" />
+                      
+                      <source media="(min-width: 768px) and (max-width: 991px) " srcset="images/header-image-med.jpg" />
+                      
+                      <source media="(min-width: 992px)" srcset="images/header-image.jpg" />
+                      
+                      <source srcset="images/header-image.jpg" />
+                      
+                      <img class="img-responsive img-rounded" src="images/header-image.jpg" />
+                </picture>
+          </section>
+          
+
+          
+          <section class="row featured-work">
+              <span class="section-title col-md-12 col-sm-12 col-xs-12">
+                  <h1>Featured Work</h1>
+              </span>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <article class="featured-item">
+                      <picture>
+                          <source media="(max-width: 768px)" srcset="images/danger-sm.jpg" />
+
+                          <source media="(min-width: 768px) and (max-width: 991px) " srcset="images/danger-med.jpg" />
+
+                          <source media="(min-width: 992px)" srcset="images/danger.jpg" />
+
+                          <source srcset="images/danger.jpg" />
+
+                          <img class="img-rounded img-responsive" src="images/danger.jpg" />
+                      </picture>
+                      
+                      <h1>Overgrown danger</h1>
+                      <a href="#">Link</a>
+                  </article>
+                  
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <article class="featured-item">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="images/face-sm.jpg" />
+                      
+                        <source media="(min-width: 768px) and (max-width: 991px) " srcset="images/face-med.jpg" />
+                      
+                        <source media="(min-width: 992px)" srcset="images/face.jpg" />
+                      
+                        <source srcset="images/face.jpg" />
+                      
+                        <img class="img-rounded img-responsive" src="images/face.jpg" />
+                      </picture>
+                      
+                      <h1>Tired watching</h1>
+                      <a href="#">Link</a>
+                  </article>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                  <article class="featured-item">
+                      <picture>
+                          <source media="(max-width: 768px)" srcset="images/life-boy-sm.jpg" />
+
+                          <source media="(min-width: 768px) and (max-width: 991px) " srcset="images/life-boy-med.jpg" />
+
+                          <source media="(min-width: 992px)" srcset="images/life-boy.jpg" />
+
+                          <source srcset="images/life-boy.jpg" />
+
+                          <img class="img-rounded img-responsive" src="images/life-boy.jpg">
+                      </picture>
+                      <h1>Saving no-one</h1>
+                      <a href="#">Link</a>
+                  </article>
+              </div>
+          </section>
+          
+          <footer class="row">
+              <span class="section-title col-md-12 col-sm-12 col-xs-12">
+                  <h1>Contact</h1>
+              </span>
+              <section class="col-md-4 col-sm-12 col-xs-12">
+                <address>
+                  <strong>Erica Sundberg</strong><br>
+                  <a href="mailto:#">erica.sundberg@live.com</a>
+                </address>
+                  
+              </section>
+              
+              <section class="col-md-4 col-sm-12 col-xs-12">
+                  <address>
+                      <strong>ES Web Design</strong><br>
+                      333 General Street Name<br>
+                      London, L3 3T<br>
+                      <abbr title="Phone">P:</abbr> 07766 66 55 44
+                  </address>
+              </section>
+              
+          </footer>
+          
+      </div>
+  </body>
+</html>

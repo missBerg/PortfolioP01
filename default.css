@@ -1,0 +1,166 @@
+#wrapper {
+    padding: 0 15px 0 15px;
+}
+
+/*HEADER*/
+#header {
+    border-bottom: 4px solid #ddd;
+    margin: auto 0 2vh auto;
+    padding: 3vh 0 5vh 0;
+    align-items: center;
+}
+
+
+#header-logo {
+/*    float: left;*/
+    max-height: 140px;
+    max-width: 140px;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 3vh 0 0 0;
+}
+
+
+#header-title {
+    
+}
+
+#header-title h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font: 350%/1 'Advent Pro', sans-serif;
+}
+
+#header-title h2 {
+    text-align: right;
+    text-transform: uppercase;
+    font:  270%/1 'Amatic SC', cursive;
+}
+
+
+
+/*FEATURE IMAGE*/
+#feature-image {
+    text-align: center;
+    margin: 0 30 0 30;
+}
+
+#feature-image img {
+    width: 100vw;
+}
+
+/*FEATURED WORK*/
+
+.section-title {
+    color: #777;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.featured-work {
+    background-color: #efefef;
+    margin: 6vh 0 0 0;
+    padding: 0 0 6vh 0;
+    border-bottom: 3px solid #ddd; 
+}
+
+.featured-item {
+    color: #777;
+    text-align: center;
+    background: #fff;
+    width: 29vw;
+    margin: 2vh auto 1vh auto;
+    padding: 0 0 3vh 0;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+.featured-item img {
+    border: 0 0 2px 0 solid #ddd;
+}
+
+
+.featured-item h1 {
+    font: 200%/1 'Advent Pro', sans-serif;
+}
+
+.featured-item a {
+    font: 100%/1 'Advent Pro', sans-serif;
+}
+
+
+footer {
+}
+
+
+/* RESPONSIVENESS */
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .header-logo-container {
+        text-align: center;
+    }
+    
+    #header-title {
+        padding: 0 5vh 5vh 5vh;
+    }
+    
+    #header-logo {
+        padding: 2vh 2vh 0vh 2vh;
+    }
+    
+    #header-title h1 {
+        text-align: center;
+        font-size: 270%;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    #header-title h2 {
+        text-align: center;
+        font-size: 230%;
+        font-family: 'Amatic SC', cursive;
+    }
+    .featured-item {
+        width: 80vw;
+    }
+    
+    .featured-work h1 {
+        text-align: center;
+    }
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    #header-title h1 {
+        font-size: 290%;
+        text-align: right;
+    }
+
+    #header-title h2 {
+        font-size: 240%;
+        text-align: right;
+    }
+/*
+    .featured-item-img img{
+        width: calc((100vw - 30px)/2);
+    }
+*/
+    
+    .featured-item {
+        width: 40vw;
+    }
+    
+    .featured-work h1 {
+        text-align: center;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+

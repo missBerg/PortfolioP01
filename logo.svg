@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1246" height="1131" viewBox="0 0 1246 1131">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #75b83e;
+        stroke: #000;
+        stroke-dasharray: 0,0;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 833.333px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: "Helvetica-Light";
+      }
+    </style>
+  </defs>
+  <rect width="1246" height="1131" rx="30" ry="30" class="cls-1"/>
+  <text x="117" y="852" class="cls-2"><tspan class="cls-3">ES</tspan></text>
+</svg>
