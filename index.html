@@ -8,9 +8,10 @@
         
         <link href="https://fonts.googleapis.com/css?family=Lato|Advent+Pro:400,100" rel="stylesheet" type="text/css">
         
-        <link rel="stylesheet" type="css" href="default.css"><link rel="stylesheet" type="css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="default.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
         
-        <link rel="stylesheet" type="css"  href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         
@@ -20,17 +21,19 @@
     </head>
   <body>
       <div id="wrapper">
-          
+<!--          Page header          -->
           <header id="header" class="row">
               <div class="col-md-4 col-sm-4 col-xs-12 header-logo-container">
                   <img id="header-logo" src="logo.svg" />
               </div>
+              
               <div id="header-title" class="col-md-8 col-sm-8 col-xs-12">
                   <h1>Erica Sundberg</h1>
                   <h2>Front-end web developer</h2>
               </div>
           </header>
           
+<!--          Featured image          -->
           <section id="feature-image" class="row">
               <picture class="col-md-12 col-sm-12 col-xs-12">
                       <source media="(max-width: 768px)" srcset="images/header-image-sm.jpg" />
@@ -45,12 +48,12 @@
                 </picture>
           </section>
           
-
-          
+<!--          Featured work          -->
           <section class="row featured-work">
               <span class="section-title col-md-12 col-sm-12 col-xs-12">
                   <h1>Featured Work</h1>
               </span>
+              
               <div class="col-md-4 col-sm-6 col-xs-12">
                   <article class="featured-item">
                       <picture>
@@ -68,8 +71,8 @@
                       <h1>Overgrown danger</h1>
                       <a href="#">github.com/missBerg</a>
                   </article>
-                  
               </div>
+              
               <div class="col-md-4 col-sm-6 col-xs-12">
                   <article class="featured-item">
                       <picture>
@@ -88,6 +91,7 @@
                       <a href="#">github.com/missBerg</a>
                   </article>
               </div>
+              
               <div class="col-md-4 col-sm-6 col-xs-12">
                   <article class="featured-item">
                       <picture>
@@ -107,6 +111,7 @@
               </div>
           </section>
           
+<!--          Footer with contact details          -->
           <footer class="row">
               <span class="section-title col-md-12 col-sm-12 col-xs-12">
                   <h1>Contact</h1>
@@ -127,7 +132,6 @@
                       <abbr title="Phone">P:</abbr> 07766 66 55 44
                   </address>
               </section>
-              
           </footer>
           
       </div>

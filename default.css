@@ -43,7 +43,6 @@
 }
 
 /*FEATURED WORK*/
-
 .section-title {
     color: #777;
     font-family: 'Advent Pro', sans-serif;
@@ -61,7 +60,7 @@
     color: #777;
     text-align: center;
     background: #fff;
-    width: 29vw;
+    width: calc((100vw - 90px)/3);
     margin: 2vh auto 1vh auto;
     padding: 0 0 3vh 0;
     border-radius: 7px;
@@ -99,14 +98,12 @@
     
     #header-title h1 {
         text-align: center;
-        font-size: 270%;
-        font-family: 'Advent Pro', sans-serif;
+        font-size: 340%;
     }
 
     #header-title h2 {
         text-align: center;
-        font-size: 230%;
-        font-family: 'Amatic SC', cursive;
+        font-size: 140%;
     }
     .featured-item {
         width: 80vw;
@@ -132,7 +129,7 @@
     }
     
     .featured-item {
-        width: 40vw;
+        width: calc((100vw - 60px)/2);
     }
     
     .featured-work h1 {
