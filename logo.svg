@@ -1,22 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1246" height="1131" viewBox="0 0 1246 1131">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="300" height="211" viewBox="0 0 300 211">
   <defs>
     <style>
-      .cls-1 {
-        fill: #75b83e;
-        stroke: #000;
-        stroke-dasharray: 0,0;
+      .cls-1, .cls-2 {
+        font-size: 833.331px;
       }
 
-      .cls-2, .cls-3 {
-        font-size: 833.333px;
-      }
-
-      .cls-3 {
-        fill: #fff;
-        font-family: "Helvetica-Light";
+      .cls-2 {
+        fill: #9f9f9f;
+        font-family: "HelveticaNeue-UltraLight";
       }
     </style>
   </defs>
-  <rect width="1246" height="1131" rx="30" ry="30" class="cls-1"/>
-  <text x="117" y="852" class="cls-2"><tspan class="cls-3">ES</tspan></text>
+  <text transform="translate(-6 200) scale(0.43 0.43)" class="cls-1"><tspan class="cls-2">e</tspan></text>
+  <text transform="translate(145 199) scale(0.43 0.43)" class="cls-1"><tspan class="cls-2">s</tspan></text>
 </svg>
