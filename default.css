@@ -10,7 +10,6 @@
     align-items: center;
 }
 
-
 #header-logo {
 /*    float: left;*/
     max-height: 140px;
@@ -18,11 +17,6 @@
     min-height: 100px;
     min-width: 100px;
     padding: 3vh 0 0 0;
-}
-
-
-#header-title {
-    
 }
 
 #header-title h1 {
@@ -34,10 +28,9 @@
 #header-title h2 {
     text-align: right;
     text-transform: uppercase;
-    font:  270%/1 'Amatic SC', cursive;
+    font:  160%/1 'Lato', sans-serif;
+    color: #9f9f9f;
 }
-
-
 
 /*FEATURE IMAGE*/
 #feature-image {
@@ -89,14 +82,7 @@
     font: 100%/1 'Advent Pro', sans-serif;
 }
 
-
-footer {
-}
-
-
 /* RESPONSIVENESS */
-
-
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
     .header-logo-container {
@@ -144,11 +130,6 @@ footer {
         font-size: 240%;
         text-align: right;
     }
-/*
-    .featured-item-img img{
-        width: calc((100vw - 30px)/2);
-    }
-*/
     
     .featured-item {
         width: 40vw;
@@ -157,10 +138,5 @@ footer {
     .featured-work h1 {
         text-align: center;
     }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
 }
 
