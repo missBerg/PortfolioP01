@@ -1,16 +1,17 @@
-#wrapper {
-    padding: 0 15px 0 15px;
+.wrapper {
+    margin: 0 15px;
 }
 
 /*HEADER*/
-#header {
+.header {
     border-bottom: 4px solid #ddd;
-    margin: auto 0 2vh auto;
-    padding: 3vh 0 5vh 0;
+    padding: 2vh 0;
+    margin: 3vh 15px;
     align-items: center;
+    overflow: hidden;
 }
 
-#header-logo {
+.header-logo {
 /*    float: left;*/
     max-height: 140px;
     max-width: 140px;
@@ -19,16 +20,16 @@
     padding: 3vh 0 0 0;
 }
 
-#header-title h1 {
+.header-title h1 {
     text-align: right;
     text-transform: uppercase;
-    font: 350%/1 'Advent Pro', sans-serif;
+    font: 350%/1 "Advent Pro", sans-serif;
 }
 
-#header-title h2 {
+.header-title h2 {
     text-align: right;
     text-transform: uppercase;
-    font:  160%/1 'Lato', sans-serif;
+    font:  160%/1 "Lato", sans-serif;
     color: #9f9f9f;
 }
 
@@ -88,20 +89,20 @@
         text-align: center;
     }
     
-    #header-title {
+    .header-title {
         padding: 0 5vh 5vh 5vh;
     }
     
-    #header-logo {
+    .header-logo {
         padding: 2vh 2vh 0vh 2vh;
     }
     
-    #header-title h1 {
+    .header-title h1 {
         text-align: center;
         font-size: 340%;
     }
 
-    #header-title h2 {
+    .header-title h2 {
         text-align: center;
         font-size: 140%;
     }
@@ -118,12 +119,12 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
     
-    #header-title h1 {
+    .header-title h1 {
         font-size: 290%;
         text-align: right;
     }
 
-    #header-title h2 {
+    .header-title h2 {
         font-size: 240%;
         text-align: right;
     }
