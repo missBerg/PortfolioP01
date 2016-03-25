@@ -34,12 +34,7 @@
 }
 
 /*FEATURE IMAGE*/
-#feature-image {
-    text-align: center;
-    margin: 0 30 0 30;
-}
-
-#feature-image img {
+.feature-image img {
     width: 100vw;
 }
 
@@ -68,11 +63,6 @@
     border: 1px solid #ddd;
     border-bottom: 3px solid #ddd;
 }
-
-.featured-item img {
-    border: 0 0 2px 0 solid #ddd;
-}
-
 
 .featured-item h1 {
     font: 200%/1 'Advent Pro', sans-serif;
